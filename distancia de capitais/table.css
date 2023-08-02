@@ -1,0 +1,31 @@
+/*  linhas e informaçoes dentro da tabela */
+
+table,
+td,
+th {
+    border: solid 3px rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+}
+
+/* lugares que nao há distâncias */
+td#nada {
+
+    background-color: black;
+}
+
+/* fundo e tamanho da tabela */
+th {
+    background-color: rgb(162, 211, 253);
+    font-size: 20px;
+    width: 1000px;
+    height: 100px;
+
+}
+
+tr:hover {
+    background-color: rgb(162, 211, 253);
+
+}
